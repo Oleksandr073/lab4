@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: calibri;
+    line-height: 1;
+    color: white;
+}
+
+/* container */
+
+.container {
+    width: 440px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 5px;
+    border-radius: 10px;
+
+    background-color: #54515a;
+}
+
+/* ring */
+
+.ring {
+    display: flex;
+}
+
+.ring_item {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.ring_item.red {
+    background-color: red;
+}
+
+.ring_item.yellow {
+    background-color: yellow;
+}
+
+.ring_item.green {
+    background-color: green;
+}
+
+/* result */
+
+.result {
+    min-height: 70px;
+    padding: 20px;
+}
+
+.result_text {
+    text-align: right;
+    font-size: 70px;
+}
+
+/* panel */
+
+.panel_string {
+    display: flex;
+}
+
+/* btn */
+
+.btn {
+    width: 110px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: inherit;
+    background-color: #797880;
+
+    cursor: pointer;
+}
+
+.btn.black {
+    background-color: #656369;
+}
+
+.btn.orange {
+    background-color: #ff9f08;
+}
+
+.btn.orange.last {
+    border-bottom-right-radius: 10px;
+}
+
+.btn.zero {
+    width: 220px;
+    border-bottom-left-radius: 10px;
+}
