@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 25px;
-    padding: 5px;
+    /* padding: 5px; */
     border-radius: 10px;
 
     background-color: #54515a;
@@ -77,6 +77,7 @@ body {
     font-size: 40px;
     color: inherit;
     background-color: #797880;
+    border: 2px #54515a solid;
 
     cursor: pointer;
 }
